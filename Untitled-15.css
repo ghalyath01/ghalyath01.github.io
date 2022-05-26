@@ -1,0 +1,13 @@
+moi{border-style: dotted;}
+body
+{
+    font-family: Arial, Helvetica, sans-serif; background-color: pink;
+}
+label{color: palevioletred; background-color: pink;font: italic bold 120%/140% Arial,sans-serif   }
+fieldset{
+    padding: 50px;
+    margin-bottom: 10px;
+    border: 1px solid #df3fdf;
+}
+    legend{color: coral; font-weight: bold;}
+    h1{font-style: oblique;}

@@ -1,0 +1,11 @@
+h1{ text-align: center;color: ;color: rgb(63,72,204); background-color: salmon;}
+body {font-family: 'Trebuchet MS', times,verdana; }
+#spécial {background-color:rebeccapurple ;color: saddlebrown;}
+.sommaire {color: black;}
+a:hover{text-decoration: none;}
+p{font:italic bold 120%/140% Arial,sans-serif}
+.oblic{font-style: oblique;}
+.chiffres_romains
+{list-style-type: upper-roman; color: blueviolet; font-weight: 700;}
+.rien 
+{list-style-type: none;}

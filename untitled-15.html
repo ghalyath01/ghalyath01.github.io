@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="bootstrap.min">
+</head>
+<body bgcolor="pink">
+    <fieldset style="border: 5px; border-color: black;">
+        <legend><h1>Informations</h1></legend>
+    <fieldset style="border: blueviolet dotted;" class="text warning">
+            <legend ><b><h1>Etat Civil</h1></b></legend>
+        <h3><label for="nom">Nom </label><input type="text"><br></h3>
+        <h3><label for="prénom">Prénom </label><input type="text"><br></h3>
+    </fieldset>
+        <fieldset style="border: 4px brown solid;">
+            <legend><h1>Profil</h1></legend>
+            <label for="email">Email </label><input type="text"><br>
+            <label for="mot_de_passe">Mot de passe </label><input type="password"><br>
+            <label for="photo">Photo </label>
+            <input type="file" placeholder="choisir une photo">
+        </fieldset>
+    <div>
+        <h1><u>Sexe</u><br><br></h1>
+        <h2><input type="radio" name="sexe"><label for="sexe" class="n">homme</label></h2>
+        <h2><input type="radio" name="sexe"><label for="sexe" class="n">Femme</label></h2>
+    </div>
+    <div>
+       <u>Pays d'Origine</u> 
+       <select>
+            <option>Bénin</option>
+            <option>Chine</option>
+            <option>Inde</option>
+            <option>USA</option>
+            <option>Indonésie</option>
+            <option>Pakistan</option>
+            <option>Brésil</option>
+            <option>Nigéria</option>
+            <option>Bangladesh</option>
+            <option>Russie</option>
+            <option>Mexique</option>
+            <option>Japon</option>
+            <option>Ethiopie</option>
+            <option>Philippines</option>
+            <option>Egypte</option>
+            <option>Viet Nam</option>
+            <option>Congo</option>
+            <option>Turquie</option>
+            <option>Iran</option>
+            <option>Allemagne</option>
+            <option>Thailande</option>
+            <option>France</option>
+            <option>Royaume Uni</option>
+            <option>Tanzanie</option>
+            <option>Italie</option>
+            <option>Afrique du Sud</option>
+            <option>Myanmar</option>
+            <option>Kenya</option>
+            <option>Corée du Sud</option>
+            <option>Colombie</option>
+        </select>
+    </div>
+    <div>
+        <u>Passe temps préféré</u>
+        <ul style="list-style-type: none;">
+        <li><input type="checkbox"><label for="loisir">Musique</label></li>
+        <li><input type="checkbox"><label for="loisir">Football</label></li>
+        <li><input type="checkbox"><label for="loisir">Basketball</label></li>
+        <li><input type="checkbox"><label for="loisir">Programmation</label></li>
+        </ul>
+    </div>
+    <div>
+        <input type="submit" value="Quitter">
+        <input type="submit" value="Envoyer">
+        <input type="reset" value="Annuler">
+    </div>
+    </fieldset>
+
+
+</body>
+</html>
